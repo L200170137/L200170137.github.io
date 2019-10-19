@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Landing Page - Start Bootstrap Theme</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/landing-page.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Masthead -->
+  <header class="masthead text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h1 class="mb-5">Sistem Managemen Basis Data</h1><BR>
+		  <h2 class="mb-5">L200170137</h2>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Icons Grid -->
+  <section class="features-icons bg-light text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="icon-screen-desktop m-auto text-primary"></i>
+            </div>
+            <h3>Data Manipulation Language</h3>
+            <p class="lead mb-0">merupakan kumpulan perintah SQL yang digunakan untuk proses pengolahan isi data di dalam table seperti memasukkan, merubah dan menghapus isi data - dan tidak terkait dengan perubahan struktur dan definisi tipe data dari objek database.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="icon-layers m-auto text-primary"></i>
+            </div>
+            <h3>Data Definition Language</h3>
+            <p class="lead mb-0">merupakan kumpulan perintah SQL yang digunakan untuk membuat, mengubah dan menghapus struktur dan definisi metadata dari objek-objek database.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="icon-check m-auto text-primary"></i>
+            </div>
+            <h3>Structured Query Language</h3>
+            <p class="lead mb-0">merupakan sekumpulan perintah khusus yang digunakan untuk mengakses data dalam database relasional. SQL merupakan sebuah bahasa komputer yang mengikuti standar ANSI (American Nasional Standard Institute) yang digunakan dalam manajemen database relasional.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Image Showcases -->
+  <section class="showcase">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>Data Manipulation Language</h2>
+          <p class="lead mb-0">Data Manipulation Language (DML) merupakan sub bahasa SQL yang digunakan untuk memanipulasi data dalam database yang telah terbuat.
+
+Perintah yang digunakan, di antaranya </br>
+
+•	INSERT : Perintah ini digunakan untuk menyisipkan atau memasukkan data baru ke dalam tabel. Penggunaannya setelah database dan tabel selesai dibuat.</br>
+Contoh :</br>
+Insert into mahasiswa values (“08052926”, “Frenky”,”70”);</br>
+
+•	SELECT : Perintah ini digunakan untuk mengambil data atau menampilkan data dari satu tabel atau beberapa tabel dalam relasi. Data yang diambil dapat kita tampilkan dalam layar prompt MySQL secara langsung maupun ditampilkan pada tampilan aplikasi.</br>
+Contoh :</br>
+Select nama_mahasiswa from mahasiswa where nilai = 70;</br>
+
+•	UPDATE : Perintah ini digunakan untuk memperbarui data lama menjadi data terkini. Jika Anda memiliki data yang salah atau kurang up to date dengan kondisi sekarang, maka dapat diubah isi datanya menggunakan perintah UPDATE.</br>
+Contoh:</br>
+		>mahasiswa set nim = ‘08052926’ = 08052927;</br>
+•	DELETE : Perintah ini digunakan untuk menghapus data dari tabel. Biasanya data yang dihapus merupakan data yang sudah tidak diperlukan lagi. Pada saat menghapus data, perintah yang telah dijalankan tidak dapat digagalkan, sehingga data yang telah hilang tidak dapat dikembalikan lagi</br>
+Contoh :</br>
+>delete form mahasiswa;</p>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
+        <div class="col-lg-6 my-auto showcase-text">
+          <h2>Data Definition Language</h2>
+          <p class="lead mb-0">Data Definition Language (DDL) merupakan sub bahasa SQL yang digunakan untuk membangun kerangka database.  Atau juga merupakan kelompok perintah yang berfungsi untuk mendefinisikan atribut-atribut database, table, atribut kolom, batasan-batasan terhadap suatu atribut serta hubungan antar table.
+Yang termasuk kelompok DDL ini adalah :</br>
+
+CREATE : Perintah ini digunakan untuk membuat, termasuk di antaranya membuat database baru, tabel baru, view baru, dan kolom.</br>
+
+Contoh :</br>
+> create table mahasiswa (nim  char(8) primary key,nama_mahasiswa  varchar(20),nilai integer(3),alamat  varchar(25);</br>
+
+ALTER : Perintah ini digunakan untuk mengubah struktur tabel yang telah dibuat. Pekerjaannya mencakup mengganti nama tabel, menambah kolom, mengubah kolom, menghapus kolom, maupun memberikan atribut pada kolom.</br>
+
+Contoh :</br>
+>alter table mahasiswa rename wisudawan;</br>
+
+
+DROP : Perintah ini digunakan untuk menghapus database dan tabel.</br>
+
+Contoh :</br>
+>Alter table ‘mahasiswa’ drop ‘alamat’;</p>
+        </div>
+      </div>
+
+  <!-- Footer -->
+  <footer class="footer bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+          <ul class="list-inline mb-2">
+            <li class="list-inline-item">
+              <a href="#">About</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="#">Contact</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="#">Terms of Use</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="#">Privacy Policy</a>
+            </li>
+          </ul>
+          <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2019. All Rights Reserved.</p>
+        </div>
+        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item mr-3">
+              <a href="#">
+                <i class="fab fa-facebook fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item mr-3">
+              <a href="#">
+                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-instagram fa-2x fa-fw"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
